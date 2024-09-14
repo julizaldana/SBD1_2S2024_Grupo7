@@ -1576,6 +1576,11 @@ VALUES (29, TO_DATE('2024-02-03', 'YYYY-MM-DD'), 'D', 'A', 10, 28);
 INSERT INTO reserva (id_reserva, fecha, metodopago, estado, vuelo_id_vuelo, pasajeros_id_pasajero)
 VALUES (30, TO_DATE('2024-02-03', 'YYYY-MM-DD'), 'D', 'A', 11, 18);
 
+INSERT INTO reserva (id_reserva, fecha, metodopago, estado, vuelo_id_vuelo, pasajeros_id_pasajero)
+VALUES (31, TO_DATE('2024-02-03', 'YYYY-MM-DD'), 'E', 'A', 1, 19);
+
+
+
 -- HISTORIA VP
 
 INSERT INTO historia_vp (id_historial, vuelo_id_vuelo, pasajeros_id_pasajero)
@@ -1694,6 +1699,68 @@ VALUES (6, 3, 'O', 'B789BA', 6);
 INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
 VALUES (7, 3, 'O', 'B789BA', 7);
 
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (7, 3, 'O', 'B789BA', 14);
+
+---
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (8, 1, 'O', 'N789UA', 13);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (9, 2, 'O', 'N456DL', 14);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (10, 3, 'O', 'RA-8900', 15);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (11, 2, 'O', 'I-AZ01', 16);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (12, 3, 'O', 'LV-FUA', 17);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (13, 3, 'O', 'XA-AM1', 18);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (14, 3, 'O', 'N789UA', 19);
+
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (15, 1, 'O', 'N456DL', 20);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (16, 2, 'O', 'RA-8900', 21);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (17, 3, 'O', 'N789UA', 22);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (18, 2, 'O', 'C001AC', 23);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (19, 3, 'O', 'N789UA', 24);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (20, 3, 'O', 'B789BA', 25);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (21, 3, 'O', 'B789BA', 26);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (22, 2, 'O', 'B789BA', 27);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (23, 3, 'O', 'B789BA', 28);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (24, 3, 'O', 'B789BA', 29);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (25, 3, 'O', 'B789BA', 30);
+
+INSERT INTO asiento (id_numero, tarifa_id_tarifa, estado, aviones_id_matricula, reserva_id_reserva)
+VALUES (26, 2, 'O', 'N123AA', 31);
 
 
 -- TARIFA
